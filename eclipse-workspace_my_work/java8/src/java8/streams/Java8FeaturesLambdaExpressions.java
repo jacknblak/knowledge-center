@@ -1,0 +1,5 @@
+package java8.streams;
+
+public class Java8FeaturesLambdaExpressions {
+
+}
