@@ -17,6 +17,12 @@ public class MethodAsReference {
 		 * In below call println is directly called from System class out reference
 		 */
 		inputList.forEach(System.out::println);
+		
+		/*
+		 * Modifying value using lambda expression 
+		 */
+		
+		inputList.forEach((item) -> System.out.println(item*item));
 	}
 
 }
