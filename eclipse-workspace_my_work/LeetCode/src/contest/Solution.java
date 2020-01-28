@@ -18,7 +18,7 @@ public class Solution {
 			}
 		}
 		int prefSize = Math.min(result.size(), Math.max(K,0));
-        return result.subList(0, ).toArray(new String[prefSize]);
+        return result.subList(0,prefSize ).toArray(new String[prefSize]);
 	}
 	public static void main(String[] args) {
 		for(String s : solution(5, 2)) {
